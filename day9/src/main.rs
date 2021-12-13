@@ -149,5 +149,5 @@ fn main() {
     let model = MapModel::new(map_init);
 
     println!("day9 part1 ans= {}", model.get_all_risk_levels());
-    println!("day9 part1 ans= {}", model.get_basins_score());
+    println!("day9 part2 ans= {}", model.get_basins_score());
 }
